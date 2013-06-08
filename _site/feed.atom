@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>/</id>
+  <title>Baked with Awestruct</title>
+  <updated>2013-06-07T17:32:35-07:00</updated>
+  <link href="/feed.atom" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <entry>
+    <id>/posts/2012/07/18/looking-ahead-to-ovirt-3-1/</id>
+    <title>Looking Ahead to oVirt 3.1</title>
+    <updated>2013-06-07T17:32:35-07:00</updated>
+    <published>2012-07-18T00:00:00+00:00</published>
+    <link href="/posts/2012/07/18/looking-ahead-to-ovirt-3-1/" rel="alternate" type="text/html" />
+    <author>
+      <name>Jason Brooks</name>
+    </author>
+    <summary>
+      
+      We&#8217;re about one week away from the release of oVirt 3.1, and I&#8217;m getting geared up by sifting through the current http://wiki.ovirt.org/wiki/Release_Notes_Draft[Release Notes Draft], in search of what&#8217;s working, what still needs work, and why one might get excited about installing or updating to the new version.
+      
+      
+      Web Admin
+      
+      
+      In version 3.1, oVirt&#8217;s web admin console has picked up a few handy refinements, starting with new "guide me" buttons and dialogs sprinkled through the interface. For example, when you create a new VM through the web console, oVirt doesn&#8217;t automatically add a virtual disk or network adapter to your VM. You add these...
+    </summary>
+    <content type="html">
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We’re about one week away from the release of oVirt 3.1, and I’m getting geared up by sifting through the current http://wiki.ovirt.org/wiki/Release_Notes_Draft[Release Notes Draft], in search of what’s working, what still needs work, and why one might get excited about installing or updating to the new version.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;strong&gt;Web Admin&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;In version 3.1, oVirt’s web admin console has picked up a few handy refinements, starting with new &quot;guide me&quot; buttons and dialogs sprinkled through the interface. For example, when you create a new VM through the web console, oVirt doesn’t automatically add a virtual disk or network adapter to your VM. You add these elements through a secondary settings pane, which can be easy to overlook, particularly when you’re getting started with oVirt. In 3.1, there’s now a &quot;guide me&quot; window that suggests adding the nic and disk, with buttons to press to direct you to the right places. These &quot;guide me&quot; elements work similarly elsewhere in the web admin console, for instance, directing users to the next right actions after creating a new cluster or adding a new host.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;image:http://blog.jebpages.com/wp-content/uploads/2012/07/guideme.png[image0]&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;strong&gt;Storage&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Several of the enhancements in oVirt 3.1 involve the project’s handling of storage. This version adds support for NFSv4 (oVirt 3.0 only supported NFSv3), and the option of connecting external iSCSI or FibreChannel LUNs directly to your VMs (as opposed to connecting only to disks in your data or iso domains.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;oVirt 3.1 also introduces a slick new admin console for creating and managing Gluster volumes, and support for hot-pluggable disks (as well as hot pluggable nics). With the Gluster and hotplug features, I’ve had mixed success during my tests so far—there appear to be wrinkles left to iron out among the component stacks that power these features.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;image:http://blog.jebpages.com/wp-content/uploads/2012/07/externalLUN.png[image1]&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;strong&gt;Installer&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;One of the 3.1 features that most caught my eye is proof-of-concept support for setting up a whole oVirt 3.1 install &lt;a href=&quot;http://wiki.ovirt.org/wiki/Feature/AllInOne&quot;&gt;on a single server&lt;/a&gt;. The feature, which is packaged up as &quot;ovirt-engine-setup-plugin-allinone&quot; adds the option to configure your oVirt engine machine as a virtualization host during the engine-setup process. In my tests, I’ve had mixed success with this option during the engine-setup process—sometimes, the local host configuration part of the setup fails out on me.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;image:http://blog.jebpages.com/wp-content/uploads/2012/07/allinone.png[image2]&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Even when the engine-setup step hasn’t worked for me, I’ve had no trouble adding my ovirt-engine machine as a host by clicking the &quot;Hosts&quot; tab in the web admin console, choosing the menu option &quot;New,&quot; and filling out information in the dialog box that appears. All the Ethernet bridge fiddling required from 3.0 (see my &lt;a href=&quot;http://blog.jebpages.com/archives/how-to-get-up-and-running-with-ovirt/&quot;&gt;previous howto&lt;/a&gt;) is now handled automatically, and it’s easy to tap the local storage on your engine/host machine through the &quot;Configure Local Storage&quot; menu item under &quot;Hosts.&quot;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Another new installer enhancement offers users the option of tapping a remote postgres database server for storing oVirt configuration data, in addition to the locally-hosted postgres default.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;oVirt 3.1 now installs with an HTTP/HTTPS proxy that makes oVirt engine (the project’s management server) accessible on ports 80/443, versus the 8080/8443 arrangement that was the default in 3.0. This indeed works, though I found that oVirt’s proxy &lt;a href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=840098&quot;&gt;prevented me&lt;/a&gt; from running &lt;a href=&quot;http://freeipa.org/page/Main_Page&quot;&gt;FreeIPA&lt;/a&gt; on the same server that hosts the engine. Not the end of the world, but engine+identity provider on the same machine seemed like a good combo to me.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Along similar lines, oVirt 3.1 adds support for Red Hat Directory Server and IBM Tivoli Directory Server as identity providers, neither of which I’ve tested so far. I’m interested to see if the 389 directory server (the upstream for RHDS) will be supported as well.&lt;/p&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+</feed>

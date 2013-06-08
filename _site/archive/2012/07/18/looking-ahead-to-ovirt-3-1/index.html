@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>An awesome site</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <style>
+      body {
+        padding-top: 60px;
+      }
+    </style>
+    <link href="/stylesheets/styles.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="">Blog Name</a>
+          <ul class="nav">
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="/archive">Archive</a>
+            </li>
+            <li>
+              <a href="/feed.atom">Feed</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div id="content">
+        <article>
+          <header class="page-header">
+            <h1 class="title">
+              <a>Looking Ahead to oVirt 3.1</a>
+            </h1>
+            <div class="meta">
+              <time>July 18, 2012</time>
+            </div>
+          </header>
+          <div class="content">
+            <div class="paragraph">
+            <p>We&#8217;re about one week away from the release of oVirt 3.1, and I&#8217;m getting geared up by sifting through the current http://wiki.ovirt.org/wiki/Release_Notes_Draft[Release Notes Draft], in search of what&#8217;s working, what still needs work, and why one might get excited about installing or updating to the new version.</p>
+            </div>
+            <div class="paragraph">
+            <p><strong>Web Admin</strong></p>
+            </div>
+            <div class="paragraph">
+            <p>In version 3.1, oVirt&#8217;s web admin console has picked up a few handy refinements, starting with new "guide me" buttons and dialogs sprinkled through the interface. For example, when you create a new VM through the web console, oVirt doesn&#8217;t automatically add a virtual disk or network adapter to your VM. You add these elements through a secondary settings pane, which can be easy to overlook, particularly when you&#8217;re getting started with oVirt. In 3.1, there&#8217;s now a "guide me" window that suggests adding the nic and disk, with buttons to press to direct you to the right places. These "guide me" elements work similarly elsewhere in the web admin console, for instance, directing users to the next right actions after creating a new cluster or adding a new host.</p>
+            </div>
+            <div class="paragraph">
+            <p>image:http://blog.jebpages.com/wp-content/uploads/2012/07/guideme.png[image0]</p>
+            </div>
+            <div class="paragraph">
+            <p><strong>Storage</strong></p>
+            </div>
+            <div class="paragraph">
+            <p>Several of the enhancements in oVirt 3.1 involve the project&#8217;s handling of storage. This version adds support for NFSv4 (oVirt 3.0 only supported NFSv3), and the option of connecting external iSCSI or FibreChannel LUNs directly to your VMs (as opposed to connecting only to disks in your data or iso domains.</p>
+            </div>
+            <div class="paragraph">
+            <p>oVirt 3.1 also introduces a slick new admin console for creating and managing Gluster volumes, and support for hot-pluggable disks (as well as hot pluggable nics). With the Gluster and hotplug features, I&#8217;ve had mixed success during my tests so far&#8212;there appear to be wrinkles left to iron out among the component stacks that power these features.</p>
+            </div>
+            <div class="paragraph">
+            <p>image:http://blog.jebpages.com/wp-content/uploads/2012/07/externalLUN.png[image1]</p>
+            </div>
+            <div class="paragraph">
+            <p><strong>Installer</strong></p>
+            </div>
+            <div class="paragraph">
+            <p>One of the 3.1 features that most caught my eye is proof-of-concept support for setting up a whole oVirt 3.1 install <a href="http://wiki.ovirt.org/wiki/Feature/AllInOne">on a single server</a>. The feature, which is packaged up as "ovirt-engine-setup-plugin-allinone" adds the option to configure your oVirt engine machine as a virtualization host during the engine-setup process. In my tests, I&#8217;ve had mixed success with this option during the engine-setup process&#8212;sometimes, the local host configuration part of the setup fails out on me.</p>
+            </div>
+            <div class="paragraph">
+            <p>image:http://blog.jebpages.com/wp-content/uploads/2012/07/allinone.png[image2]</p>
+            </div>
+            <div class="paragraph">
+            <p>Even when the engine-setup step hasn&#8217;t worked for me, I&#8217;ve had no trouble adding my ovirt-engine machine as a host by clicking the "Hosts" tab in the web admin console, choosing the menu option "New," and filling out information in the dialog box that appears. All the Ethernet bridge fiddling required from 3.0 (see my <a href="http://blog.jebpages.com/archives/how-to-get-up-and-running-with-ovirt/">previous howto</a>) is now handled automatically, and it&#8217;s easy to tap the local storage on your engine/host machine through the "Configure Local Storage" menu item under "Hosts."</p>
+            </div>
+            <div class="paragraph">
+            <p>Another new installer enhancement offers users the option of tapping a remote postgres database server for storing oVirt configuration data, in addition to the locally-hosted postgres default.</p>
+            </div>
+            <div class="paragraph">
+            <p>oVirt 3.1 now installs with an HTTP/HTTPS proxy that makes oVirt engine (the project&#8217;s management server) accessible on ports 80/443, versus the 8080/8443 arrangement that was the default in 3.0. This indeed works, though I found that oVirt&#8217;s proxy <a href="https://bugzilla.redhat.com/show_bug.cgi?id=840098">prevented me</a> from running <a href="http://freeipa.org/page/Main_Page">FreeIPA</a> on the same server that hosts the engine. Not the end of the world, but engine+identity provider on the same machine seemed like a good combo to me.</p>
+            </div>
+            <div class="paragraph">
+            <p>Along similar lines, oVirt 3.1 adds support for Red Hat Directory Server and IBM Tivoli Directory Server as identity providers, neither of which I&#8217;ve tested so far. I&#8217;m interested to see if the 389 directory server (the upstream for RHDS) will be supported as well.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <hr>
+      <footer>
+        <p>&copy; Organization 2013</p>
+      </footer>
+    </div>
+  </body>
+</html>

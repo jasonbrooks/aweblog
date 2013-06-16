@@ -19,6 +19,8 @@ gem 'rake', '~> 10.0.3', :group => :test
 gem 'rdoc', '~> 4.0.0', :group => :test
 gem 'tomdoc', '~> 0.2.5', :group => :test
 
+gem 'coffee-rails'
+
 # required to use the minify extension
 gem 'uglifier', '~> 1.3.0'
 gem 'htmlcompressor', '~> 0.0.3'

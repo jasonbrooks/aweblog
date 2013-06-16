@@ -2,6 +2,7 @@
 author: Jason Brooks
 title: A Second Post
 layout: post
+date: 2013-06-16
 ---
 
 It's a stub second post, the first with Travis CI in effect, y'all.

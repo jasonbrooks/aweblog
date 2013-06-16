@@ -4,10 +4,18 @@ org: Organization
 base_url: ''
 
 asciidoctor:
+# enable compact after upgrade to Asciidoctor 0.1.2
+#  :compact: true
+  :eruby: erubis
+  :attributes:
+    idprefix: ''
+    idseparator: '-'
+    icons: ''
+
 
 profiles:
   production:
-    base_url: http://jasonbrooks.github.io/aweblog
+    base_url: 'http://jasonbrooks.github.io/aweblog'
     deploy:
       host: github_pages
       # use gh-branch for repositories other than <username>.github.io
@@ -16,3 +24,4 @@ profiles:
       #branch: master
   development:
      dev: true
+     base_url: ''

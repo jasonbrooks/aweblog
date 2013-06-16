@@ -1,10 +1,9 @@
 name: Project Name
 title: Baked with Awestruct
 org: Organization
-base_url: 'http://jasonbrooks.github.io/aweblog/'
+base_url: ''
 
-asciidoc:
-  engine: asciidoctor
+asciidoctor:
 
 profiles:
   production:

@@ -1,6 +1,7 @@
 ---
 title: Foo
 layout: post
+date: 2013-06-16
 ---
 
 Foo

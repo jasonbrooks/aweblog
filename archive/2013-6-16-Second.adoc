@@ -1,6 +1,7 @@
 ---
 author: Jason Brooks
 title: A Second Post
+layout: post
 ---
 
 It's a stub second post, the first with Travis CI in effect, y'all.

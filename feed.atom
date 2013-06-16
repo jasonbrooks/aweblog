@@ -2,13 +2,13 @@
 <feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
   <id>http://jasonbrooks.github.io/aweblog/</id>
   <title>Baked with Awestruct</title>
-  <updated>2013-06-16T12:14:55+00:00</updated>
+  <updated>2013-06-16T12:21:17+00:00</updated>
   <link href="http://jasonbrooks.github.io/aweblog/feed.atom" rel="self" type="application/atom+xml" />
   <link href="http://jasonbrooks.github.io/aweblog/" rel="alternate" type="text/html" />
   <entry>
     <id>http://jasonbrooks.github.io/aweblog/archive/2013/06/16/Second/</id>
     <title>Second</title>
-    <updated>2013-06-16T12:14:55+00:00</updated>
+    <updated>2013-06-16T12:21:17+00:00</updated>
     <published>2013-06-16T00:00:00+00:00</published>
     <link href="http://jasonbrooks.github.io/aweblog/archive/2013/06/16/Second/" rel="alternate" type="text/html" />
     <author>
@@ -31,7 +31,7 @@
   <entry>
     <id>http://jasonbrooks.github.io/aweblog/archive/2013/06/16/Foo/</id>
     <title>Foo</title>
-    <updated>2013-06-16T12:14:55+00:00</updated>
+    <updated>2013-06-16T12:21:17+00:00</updated>
     <published>2013-06-16T00:00:00+00:00</published>
     <link href="http://jasonbrooks.github.io/aweblog/archive/2013/06/16/Foo/" rel="alternate" type="text/html" />
     <summary>
@@ -51,7 +51,7 @@
   <entry>
     <id>http://jasonbrooks.github.io/aweblog/archive/2012/07/18/looking-ahead-to-ovirt-3-1/</id>
     <title>Looking Ahead to oVirt 3.1</title>
-    <updated>2013-06-16T12:14:55+00:00</updated>
+    <updated>2013-06-16T12:21:17+00:00</updated>
     <published>2012-07-18T00:00:00+00:00</published>
     <link href="http://jasonbrooks.github.io/aweblog/archive/2012/07/18/looking-ahead-to-ovirt-3-1/" rel="alternate" type="text/html" />
     <author>

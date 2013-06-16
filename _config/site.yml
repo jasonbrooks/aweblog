@@ -3,6 +3,9 @@ title: Baked with Awestruct
 org: Organization
 base_url: ''
 
+asciidoc:
+  engine: asciidoctor
+
 profiles:
   production:
     base_url: http://jasonbrooks.github.io/aweblog

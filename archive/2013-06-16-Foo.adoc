@@ -4,4 +4,4 @@ title: Foo
 date: 2013-06-16
 ---
 
-Foo Schnicken
+= Foo Schnicken

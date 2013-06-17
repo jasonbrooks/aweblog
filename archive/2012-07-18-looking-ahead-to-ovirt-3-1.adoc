@@ -11,7 +11,7 @@ We're about one week away from the release of oVirt 3.1, and I'm getting geared 
 
 In version 3.1, oVirt's web admin console has picked up a few handy refinements, starting with new "guide me" buttons and dialogs sprinkled through the interface. For example, when you create a new VM through the web console, oVirt doesn't automatically add a virtual disk or network adapter to your VM. You add these elements through a secondary settings pane, which can be easy to overlook, particularly when you're getting started with oVirt. In 3.1, there's now a "guide me" window that suggests adding the nic and disk, with buttons to press to direct you to the right places. These "guide me" elements work similarly elsewhere in the web admin console, for instance, directing users to the next right actions after creating a new cluster or adding a new host.
 
-image:http://blog.jebpages.com/wp-content/uploads/2012/07/guideme.png[image0]
+image:http://blog.jebpages.com/wp-content/uploads/2012/07/guideme.png[Guide Me]
 
 *Storage*
 
@@ -19,13 +19,13 @@ Several of the enhancements in oVirt 3.1 involve the project's handling of stora
 
 oVirt 3.1 also introduces a slick new admin console for creating and managing Gluster volumes, and support for hot-pluggable disks (as well as hot pluggable nics). With the Gluster and hotplug features, I've had mixed success during my tests so far--there appear to be wrinkles left to iron out among the component stacks that power these features.
 
-image:http://blog.jebpages.com/wp-content/uploads/2012/07/externalLUN.png[image1]
+image:http://blog.jebpages.com/wp-content/uploads/2012/07/externalLUN.png[External LUN]
 
 *Installer*
 
 One of the 3.1 features that most caught my eye is proof-of-concept support for setting up a whole oVirt 3.1 install http://wiki.ovirt.org/wiki/Feature/AllInOne[on a single server]. The feature, which is packaged up as "ovirt-engine-setup-plugin-allinone" adds the option to configure your oVirt engine machine as a virtualization host during the engine-setup process. In my tests, I've had mixed success with this option during the engine-setup process--sometimes, the local host configuration part of the setup fails out on me.
 
-image:http://blog.jebpages.com/wp-content/uploads/2012/07/allinone.png[image2]
+image:http://blog.jebpages.com/wp-content/uploads/2012/07/allinone.png[All in One]
 
 Even when the engine-setup step hasn't worked for me, I've had no trouble adding my ovirt-engine machine as a host by clicking the "Hosts" tab in the web admin console, choosing the menu option "New," and filling out information in the dialog box that appears. All the Ethernet bridge fiddling required from 3.0 (see my http://blog.jebpages.com/archives/how-to-get-up-and-running-with-ovirt/[previous howto]) is now handled automatically, and it's easy to tap the local storage on your engine/host machine through the "Configure Local Storage" menu item under "Hosts."
 

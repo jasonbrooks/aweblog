@@ -2,13 +2,13 @@
 <feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
   <id>http://jasonbrooks.github.io/aweblog/</id>
   <title>Baked with Awestruct</title>
-  <updated>2013-06-17T00:35:20+00:00</updated>
+  <updated>2013-06-17T01:19:43+00:00</updated>
   <link href="http://jasonbrooks.github.io/aweblog/feed.atom" rel="self" type="application/atom+xml" />
   <link href="http://jasonbrooks.github.io/aweblog/" rel="alternate" type="text/html" />
   <entry>
     <id>http://jasonbrooks.github.io/aweblog/archive/2013/06/16/Second/</id>
     <title>Second</title>
-    <updated>2013-06-17T00:35:20+00:00</updated>
+    <updated>2013-06-17T01:19:43+00:00</updated>
     <published>2013-06-16T00:00:00+00:00</published>
     <link href="http://jasonbrooks.github.io/aweblog/archive/2013/06/16/Second/" rel="alternate" type="text/html" />
     <author>
@@ -29,7 +29,7 @@
   <entry>
     <id>http://jasonbrooks.github.io/aweblog/archive/2013/06/16/Foo/</id>
     <title>Foo</title>
-    <updated>2013-06-17T00:35:20+00:00</updated>
+    <updated>2013-06-17T01:19:43+00:00</updated>
     <published>2013-06-16T00:00:00+00:00</published>
     <link href="http://jasonbrooks.github.io/aweblog/archive/2013/06/16/Foo/" rel="alternate" type="text/html" />
     <summary>
@@ -47,7 +47,7 @@
   <entry>
     <id>http://jasonbrooks.github.io/aweblog/archive/2012/07/18/looking-ahead-to-ovirt-3-1/</id>
     <title>Looking Ahead to oVirt 3.1</title>
-    <updated>2013-06-17T00:35:20+00:00</updated>
+    <updated>2013-06-17T01:19:43+00:00</updated>
     <published>2012-07-18T00:00:00+00:00</published>
     <link href="http://jasonbrooks.github.io/aweblog/archive/2012/07/18/looking-ahead-to-ovirt-3-1/" rel="alternate" type="text/html" />
     <author>
@@ -55,17 +55,17 @@
     </author>
     <summary>
       
-      We&#8217;re about one week away from the release of oVirt 3.1, and I&#8217;m getting geared up by sifting through the current http://wiki.ovirt.org/wiki/Release_Notes_Draft[Release Notes Draft], in search of what&#8217;s working, what still needs work, and why one might get excited about installing or updating to the new version.
+      We&#8217;re about one week away from the release of oVirt 3.1, and I&#8217;m getting geared up by sifting through the current Release Notes Draft, in search of what&#8217;s working, what still needs work, and why one might get excited about installing or updating to the new version.
       
       
       Web Admin
       
       
-      In version 3.1, oVirt&#8217;s web admin console has picked up a few handy refinements, starting with new "guide me" buttons and dialogs sprinkled through the interface. For example, when you create a new VM through the web console, oVirt doesn&#8217;t automatically add a virtual disk or network adapter to your VM. You add these...
+      In version 3.1, oVirt&#8217;s web admin console has picked up a few handy refinements, starting with new "guide me" buttons and dialogs sprinkled through the interface. For example, when you create a new VM through the web console, oVirt doesn&#8217;t automatically add a virtual disk or network adapter to your VM. You add...
     </summary>
     <content type="html">
       &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;We’re about one week away from the release of oVirt 3.1, and I’m getting geared up by sifting through the current http://wiki.ovirt.org/wiki/Release_Notes_Draft[Release Notes Draft], in search of what’s working, what still needs work, and why one might get excited about installing or updating to the new version.&lt;/p&gt;
+      &lt;p&gt;We’re about one week away from the release of oVirt 3.1, and I’m getting geared up by sifting through the current &lt;a href=&quot;http://wiki.ovirt.org/wiki/Release_Notes_Draft&quot;&gt;Release Notes Draft&lt;/a&gt;, in search of what’s working, what still needs work, and why one might get excited about installing or updating to the new version.&lt;/p&gt;
       &lt;/div&gt;
       &lt;div class=&quot;paragraph&quot;&gt;
       &lt;p&gt;&lt;strong&gt;Web Admin&lt;/strong&gt;&lt;/p&gt;

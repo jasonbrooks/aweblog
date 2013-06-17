@@ -5,7 +5,7 @@ base_url: ''
 
 asciidoctor:
 # enable compact after upgrade to Asciidoctor 0.1.2
-#  :compact: true
+  :compact: true
   :eruby: erubis
   :attributes:
     idprefix: ''
@@ -24,4 +24,3 @@ profiles:
       #branch: master
   development:
      dev: true
-     base_url: ''

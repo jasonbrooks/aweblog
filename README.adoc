@@ -3,7 +3,7 @@ aweblog
 
 A blog of awestruct + asciidoc, based on https://github.com/mojavelinux/decks/blob/master/awestruct-git/demos/setup-blog-demo.asciidoc[this tutorial] from Dan Allen. Self-education towards swapping out Wordpress for Awestruct.
 
-. git clone git clone git://github.com/jasonbrooks/aweblog.git
+. git clone git://github.com/jasonbrooks/aweblog.git
 . cd aweblog
 . gem install awestruct
 . gem install asciidoctor

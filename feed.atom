@@ -2,13 +2,13 @@
 <feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
   <id>http://jasonbrooks.github.io/aweblog/</id>
   <title>Baked with Awestruct</title>
-  <updated>2013-06-16T23:22:37+00:00</updated>
+  <updated>2013-06-17T00:26:04+00:00</updated>
   <link href="http://jasonbrooks.github.io/aweblog/feed.atom" rel="self" type="application/atom+xml" />
   <link href="http://jasonbrooks.github.io/aweblog/" rel="alternate" type="text/html" />
   <entry>
     <id>http://jasonbrooks.github.io/aweblog/archive/2013/06/16/Second/</id>
     <title>Second</title>
-    <updated>2013-06-16T23:22:37+00:00</updated>
+    <updated>2013-06-17T00:26:04+00:00</updated>
     <published>2013-06-16T00:00:00+00:00</published>
     <link href="http://jasonbrooks.github.io/aweblog/archive/2013/06/16/Second/" rel="alternate" type="text/html" />
     <author>
@@ -17,8 +17,6 @@
     <summary>
       
       It&#8217;s a stub second post, the first with Travis CI in effect, y&#8217;all. Ugh.
-      
-      
       
       ...
     </summary>
@@ -31,22 +29,25 @@
   <entry>
     <id>http://jasonbrooks.github.io/aweblog/archive/2013/06/16/Foo/</id>
     <title>Foo</title>
-    <updated>2013-06-16T23:22:37+00:00</updated>
+    <updated>2013-06-17T00:26:04+00:00</updated>
     <published>2013-06-16T00:00:00+00:00</published>
     <link href="http://jasonbrooks.github.io/aweblog/archive/2013/06/16/Foo/" rel="alternate" type="text/html" />
     <summary>
       
+      Foo Schnicken
       
       ...
     </summary>
     <content type="html">
-      
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Foo Schnicken&lt;/p&gt;
+      &lt;/div&gt;
     </content>
   </entry>
   <entry>
     <id>http://jasonbrooks.github.io/aweblog/archive/2012/07/18/looking-ahead-to-ovirt-3-1/</id>
     <title>Looking Ahead to oVirt 3.1</title>
-    <updated>2013-06-16T23:22:37+00:00</updated>
+    <updated>2013-06-17T00:26:04+00:00</updated>
     <published>2012-07-18T00:00:00+00:00</published>
     <link href="http://jasonbrooks.github.io/aweblog/archive/2012/07/18/looking-ahead-to-ovirt-3-1/" rel="alternate" type="text/html" />
     <author>

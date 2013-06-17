@@ -2,62 +2,13 @@
 <feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
   <id>http://jasonbrooks.github.io/aweblog/</id>
   <title>Baked with Awestruct</title>
-  <updated>2013-06-17T10:30:52+00:00</updated>
+  <updated>2013-06-17T10:58:51+00:00</updated>
   <link href="http://jasonbrooks.github.io/aweblog/feed.atom" rel="self" type="application/atom+xml" />
   <link href="http://jasonbrooks.github.io/aweblog/" rel="alternate" type="text/html" />
   <entry>
-    <id>http://jasonbrooks.github.io/aweblog/archive/2013/06/16/Second/</id>
-    <title>Second</title>
-    <updated>2013-06-17T10:30:52+00:00</updated>
-    <published>2013-06-16T00:00:00+00:00</published>
-    <link href="http://jasonbrooks.github.io/aweblog/archive/2013/06/16/Second/" rel="alternate" type="text/html" />
-    <author>
-      <name>Jason Brooks</name>
-    </author>
-    <summary>
-      
-      It&#8217;s a stub second post, the first with Travis CI in effect, y&#8217;all. Ugh.
-      
-      ...
-    </summary>
-    <content type="html">
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;It&amp;#8217;s a stub second post, the first with Travis CI in effect, y&amp;#8217;all. Ugh.&lt;/p&gt;
-      &lt;/div&gt;
-    </content>
-  </entry>
-  <entry>
-    <id>http://jasonbrooks.github.io/aweblog/archive/2013/06/16/Foo/</id>
-    <title>Foo</title>
-    <updated>2013-06-17T10:30:52+00:00</updated>
-    <published>2013-06-16T00:00:00+00:00</published>
-    <link href="http://jasonbrooks.github.io/aweblog/archive/2013/06/16/Foo/" rel="alternate" type="text/html" />
-    <summary>
-      
-      Foo Schnicken
-      
-      
-      
-      
-      
-      
-      ...
-    </summary>
-    <content type="html">
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Foo Schnicken&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img src=&quot;http://asciidoctor.org/images/sunset.jpg&quot; alt=&quot;foo&quot;&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-    </content>
-  </entry>
-  <entry>
     <id>http://jasonbrooks.github.io/aweblog/archive/2012/07/18/looking-ahead-to-ovirt-3-1/</id>
     <title>Looking Ahead to oVirt 3.1</title>
-    <updated>2013-06-17T10:30:52+00:00</updated>
+    <updated>2013-06-17T10:58:51+00:00</updated>
     <published>2012-07-18T00:00:00+00:00</published>
     <link href="http://jasonbrooks.github.io/aweblog/archive/2012/07/18/looking-ahead-to-ovirt-3-1/" rel="alternate" type="text/html" />
     <author>
@@ -83,8 +34,11 @@
       &lt;div class=&quot;paragraph&quot;&gt;
       &lt;p&gt;In version 3.1, oVirt’s web admin console has picked up a few handy refinements, starting with new &quot;guide me&quot; buttons and dialogs sprinkled through the interface. For example, when you create a new VM through the web console, oVirt doesn’t automatically add a virtual disk or network adapter to your VM. You add these elements through a secondary settings pane, which can be easy to overlook, particularly when you’re getting started with oVirt. In 3.1, there’s now a &quot;guide me&quot; window that suggests adding the nic and disk, with buttons to press to direct you to the right places. These &quot;guide me&quot; elements work similarly elsewhere in the web admin console, for instance, directing users to the next right actions after creating a new cluster or adding a new host.&lt;/p&gt;
       &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;image:http://blog.jebpages.com/wp-content/uploads/2012/07/guideme.png[Guide Me]&lt;/p&gt;
+      &lt;div id=&quot;img-guideme&quot; class=&quot;imageblock&quot; style=&quot;text-align: center&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img src=&quot;http://blog.jebpages.com/wp-content/uploads/2012/07/guideme.png&quot; alt=&quot;Guide Me&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;title&quot;&gt;Figure 1. Guide Me&lt;/div&gt;
       &lt;/div&gt;
       &lt;div class=&quot;paragraph&quot;&gt;
       &lt;p&gt;&lt;strong&gt;Storage&lt;/strong&gt;&lt;/p&gt;
@@ -95,8 +49,11 @@
       &lt;div class=&quot;paragraph&quot;&gt;
       &lt;p&gt;oVirt 3.1 also introduces a slick new admin console for creating and managing Gluster volumes, and support for hot-pluggable disks (as well as hot pluggable nics). With the Gluster and hotplug features, I’ve had mixed success during my tests so far—there appear to be wrinkles left to iron out among the component stacks that power these features.&lt;/p&gt;
       &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;image:http://blog.jebpages.com/wp-content/uploads/2012/07/externalLUN.png[External LUN]&lt;/p&gt;
+      &lt;div id=&quot;img-extlun&quot; class=&quot;imageblock&quot; style=&quot;text-align: center&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img src=&quot;http://blog.jebpages.com/wp-content/uploads/2012/07/externalLUN.png&quot; alt=&quot;External LUN&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;title&quot;&gt;Figure 2. External LUN&lt;/div&gt;
       &lt;/div&gt;
       &lt;div class=&quot;paragraph&quot;&gt;
       &lt;p&gt;&lt;strong&gt;Installer&lt;/strong&gt;&lt;/p&gt;
@@ -104,8 +61,11 @@
       &lt;div class=&quot;paragraph&quot;&gt;
       &lt;p&gt;One of the 3.1 features that most caught my eye is proof-of-concept support for setting up a whole oVirt 3.1 install &lt;a href=&quot;http://wiki.ovirt.org/wiki/Feature/AllInOne&quot;&gt;on a single server&lt;/a&gt;. The feature, which is packaged up as &quot;ovirt-engine-setup-plugin-allinone&quot; adds the option to configure your oVirt engine machine as a virtualization host during the engine-setup process. In my tests, I’ve had mixed success with this option during the engine-setup process—sometimes, the local host configuration part of the setup fails out on me.&lt;/p&gt;
       &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;image:http://blog.jebpages.com/wp-content/uploads/2012/07/allinone.png[All in One]&lt;/p&gt;
+      &lt;div id=&quot;img-allinone&quot; class=&quot;imageblock&quot; style=&quot;text-align: center&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img src=&quot;http://blog.jebpages.com/wp-content/uploads/2012/07/allinone.png&quot; alt=&quot;All in One&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;title&quot;&gt;Figure 3. All in One&lt;/div&gt;
       &lt;/div&gt;
       &lt;div class=&quot;paragraph&quot;&gt;
       &lt;p&gt;Even when the engine-setup step hasn’t worked for me, I’ve had no trouble adding my ovirt-engine machine as a host by clicking the &quot;Hosts&quot; tab in the web admin console, choosing the menu option &quot;New,&quot; and filling out information in the dialog box that appears. All the Ethernet bridge fiddling required from 3.0 (see my &lt;a href=&quot;http://blog.jebpages.com/archives/how-to-get-up-and-running-with-ovirt/&quot;&gt;previous howto&lt;/a&gt;) is now handled automatically, and it’s easy to tap the local storage on your engine/host machine through the &quot;Configure Local Storage&quot; menu item under &quot;Hosts.&quot;&lt;/p&gt;

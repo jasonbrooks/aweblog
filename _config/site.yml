@@ -15,7 +15,7 @@ asciidoctor:
 
 profiles:
   production:
-#    base_url: http://jasonbrooks.github.io/aweblog
+    base_url: http://jasonbrooks.github.io/aweblog/
     deploy:
       host: github_pages
       # use gh-branch for repositories other than <username>.github.io

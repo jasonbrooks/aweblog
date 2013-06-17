@@ -6,4 +6,4 @@ date: 2013-06-16
 
 Foo Schnicken
 
-image:http://asciidoctor.org/images/sunset.jpg[foo]
+image::http://asciidoctor.org/images/sunset.jpg[foo]

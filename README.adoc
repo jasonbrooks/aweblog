@@ -14,4 +14,4 @@ Posts go in the archives folder, with names that must (I believe) begin with a d
 
 Some import from WP bits https://gist.github.com/jasonbrooks/5733146[here].
 
-A borked bake of the site is http://jasonbrooks.github.io/aweblog/[here]. Not sure why it's borked. Example borkage: on http://jasonbrooks.github.io/aweblog/archive/2012/07/18/looking-ahead-to-ovirt-3-1/[this page], some links render, some links do not.
+A bake of the site is http://jasonbrooks.github.io/aweblog/[here].

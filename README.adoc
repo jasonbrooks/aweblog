@@ -10,7 +10,7 @@ A blog of awestruct + asciidoc, based on https://github.com/mojavelinux/decks/bl
 . awestruct -d
 . visit http://localhost:4242
 
-Posts go in the archives folder, with names that must (I believe) begin with a date. For me, right now, images aren't rendering correctly. I'm not sure why. The journey continues...
+Posts go in the archives folder, with names that http://awestruct.org/extensions/posts/[must begin with a date].
 
 Some import from WP bits https://gist.github.com/jasonbrooks/5733146[here].
 

@@ -1,9 +1,0 @@
----
-layout: post
-title: Foo
-date: 2013-06-16
----
-
-Foo Schnicken
-
-image::http://asciidoctor.org/images/sunset.jpg[foo]

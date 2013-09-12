@@ -3,15 +3,15 @@ aweblog
 
 A blog of awestruct + asciidoc, based on https://github.com/mojavelinux/decks/blob/master/awestruct-git/demos/setup-blog-demo.asciidoc[this tutorial] from Dan Allen. Self-education towards swapping out Wordpress for Awestruct.
 
-. git clone git@github.com:jasonbrooks/aweblog.git
-. cd aweblog
+. git clone git://github.com/jasonbrooks/aweblog.git
+. cd aweblog
 . gem install awestruct
 . gem install asciidoctor
 . awestruct -d
 . visit http://localhost:4242
 
-Posts go in the archives folder, with names that must (I believe) begin with a date. For me, right now, images aren't rendering correctly. I'm not sure why. The journey continues...
+Posts go in the archives folder, with names that http://awestruct.org/extensions/posts/[must begin with a date].
 
 Some import from WP bits https://gist.github.com/jasonbrooks/5733146[here].
 
-A bake of the site is http://jasonbrooks.github.io/aweblog/[here].
+A bake of the site is http://jasonbrooks.github.io/aweblog/[here], it's hooked up w/ Travis CI and github pages, as described in https://github.com/mojavelinux/decks/blob/master/awestruct-git/demos/github-pages-deploy-demo.asciidoc[this other tutorial] from Dan.

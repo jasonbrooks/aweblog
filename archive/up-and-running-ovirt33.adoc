@@ -4,7 +4,7 @@ The https://twitter.com/redhatopen[oVirt Project] is now putting the finishing t
 
 oVirt 3.3 also sports an overhauled All-in-One (AIO) setup plugin, which makes it easy to get up and running with oVirt on a single machine to see what oVirt can do for you. 
 
-== Prerequisites ==
+== Prerequisites and thang ==
 
 * Hardware: You'll need a machine with at least 4GB RAM and processors with hardware virtualization extensions. A physical machine is best, but you can test oVirt effectively using http://community.redhat.com/testing-ovirt-3-3-with-nested-kvm/[nested KVM] as well.
 
